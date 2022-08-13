@@ -1,0 +1,27 @@
+html{
+    scroll-behavior: smooth!important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+#home{
+    padding: 200px 0px;
+}
+#about{
+    padding: 50px 0px;
+    background-color: rgb(232, 232, 232);
+}
+#contact{
+    padding: 50px 0px;
+}
+.categories span{
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline-block;
+    margin-right: 5px;
+    transition: all .3s ease;
+}
+.categories span:hover{
+    transform: scale(1.1);
+}
